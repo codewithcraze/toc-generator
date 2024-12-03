@@ -1,4 +1,6 @@
-Here's a well-structured `README.md` for your package, **tocify.js**:
+Certainly! To add a side navigation bar to your `README.md` file, you can use GitHub-flavored markdown with a Table of Contents (TOC) section and internal links (anchors) that will allow users to jump to various sections of your document.
+
+Here’s the modified `README.md` with a side navigation bar (which is essentially a Table of Contents):
 
 ```markdown
 # Tocify.js
@@ -6,6 +8,23 @@ Here's a well-structured `README.md` for your package, **tocify.js**:
 **Tocify.js** is a lightweight, easy-to-use JavaScript library designed to generate a Table of Contents (TOC) from the headers in your HTML or markdown files. It automatically scans your document for headers and generates a clean, clickable, and customizable TOC.
 
 Whether you are building a static website, a documentation site, or a blog, **Tocify.js** provides a fast and flexible solution for creating a TOC that enhances navigation and readability.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+  - [Using npm](#using-npm)
+  - [Using CDN](#using-cdn)
+- [Usage](#usage)
+  - [Basic Example](#basic-example)
+  - [Options](#options)
+- [Customization](#customization)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -21,8 +40,6 @@ Whether you are building a static website, a documentation site, or a blog, **To
 ---
 
 ## Installation
-
-You can install **Tocify.js** via npm or include it directly in your project.
 
 ### Using npm
 
@@ -170,6 +187,10 @@ For support or questions, please open an issue in the GitHub repository or reach
 Happy coding! 🚀
 ```
 
----
+### Explanation:
+- **Table of Contents (TOC)**: The TOC has been placed at the top of the README with anchor links that correspond to different sections in the document.
+- **Anchor Links**: Each section (like Features, Installation, Usage, etc.) has an anchor link (`#feature`, `#installation`, etc.) that users can click on in the TOC to quickly navigate to the section.
+  
+GitHub automatically supports these links, and when users click on an item in the TOC, they’ll be taken to the corresponding section in the README file.
 
-This `README.md` file contains everything a user would need to understand, install, and use your **Tocify.js** package. It includes sections for installation, usage, options, and contribution guidelines, making it easy for other developers to get started with your project.
+This creates a side navigation-style experience within the README, allowing users to quickly jump to the sections they’re interested in.
