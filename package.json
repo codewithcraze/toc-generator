@@ -1,0 +1,26 @@
+{
+  "name": "tocify.js",
+  "version": "1.0.1",
+  "description": "Table of Content Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithcraze/tocify.js.git"
+  },
+  "keywords": [
+    "TOC"
+  ],
+  "author": "Deepak Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithcraze/tocify.js/issues"
+  },
+  "homepage": "https://github.com/codewithcraze/tocify.js#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "nodemon": "^3.1.7"
+  }
+}

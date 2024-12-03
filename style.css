@@ -1,0 +1,97 @@
+
+/* Basic Styles for Table of Contents */
+.table-of-contents {
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Styling each TOC item based on its heading level */
+.table-of-contents .toc-level-1 {
+    font-weight: bold;
+}
+
+.table-of-contents .toc-level-2 {
+    padding-left: 20px;
+}
+
+.table-of-contents .toc-level-3 {
+    padding-left: 40px;
+}
+
+.table-of-contents .toc-level-4 {
+    padding-left: 60px;
+}
+
+.table-of-contents .toc-level-5 {
+    padding-left: 80px;
+}
+
+.table-of-contents .toc-level-6 {
+    padding-left: 100px;
+}
+
+/* Hover effect for links in the TOC */
+.table-of-contents a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
+
+/* Style the headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+h5 {
+    font-size: 16px;
+    padding-left: 45px;
+}
+
+h6 {
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+/* Add some space to the page */
+body {
+    margin: 30px;
+}
+
+/* Style for anchor links to make them stand out */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
