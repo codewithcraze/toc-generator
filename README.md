@@ -1,7 +1,3 @@
-
-
-# tocify
-
 `tocify` is a utility that processes HTML content to generate a Table of Contents (TOC) based on the headings (h1, h2, h3, ..., h6) present in the document. It also assigns unique IDs to these headings to ensure proper navigation within the document.
 
 ## Features
